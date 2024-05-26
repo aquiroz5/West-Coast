@@ -3,7 +3,7 @@
     /* main UI color */
     --plyr-color-main: darkgray;
     /* audio controls background */
-    --plyr-audio-controls-background: black;
+    --plyr-audio-controls-background: rgb(255, 0, 0);
     /* audio controls color */
     --plyr-audio-control-color: white;
     /* font family for player */
@@ -13,7 +13,7 @@
 
     /* Other optional customiziations */
     --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
+    --plyr-audio-progress-buffered-background:  rgb(255, 0, 0);
     --plyr-audio-range-track-background: white;
     --plyr-tooltip-background: white;
     --plyr-tooltip-color: black; 
@@ -30,12 +30,21 @@ main {
     max-width: 60em;
     margin-inline: auto;
 
-    background: lightgray;
+    background: hsla(199, 74%, 49%, 1);
+
+background: linear-gradient(360deg, hsla(199, 74%, 49%, 1) 21%, hsla(199, 49%, 59%, 1) 49%, hsla(31, 100%, 65%, 1) 81%);
+
+background: -moz-linear-gradient(360deg, hsla(199, 74%, 49%, 1) 21%, hsla(199, 49%, 59%, 1) 49%, hsla(31, 100%, 65%, 1) 81%);
+
+background: -webkit-linear-gradient(360deg, hsla(199, 74%, 49%, 1) 21%, hsla(199, 49%, 59%, 1) 49%, hsla(31, 100%, 65%, 1) 81%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#209FDA", endColorstr="#63A9C9", GradientType=1 );
+
 }
 
 main img {
     /* Fit image to container */
-    max-width: 100%;
+    max-width: 100%;.
     display: block;
 }
 
