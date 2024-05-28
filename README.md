@@ -1,10 +1,10 @@
 # Song Name by Artist Name
 
-> single quote from song
+> Ive been dreamin' 'bout the west coast
 
 ## What is this? 
-* A website to promote a single-song
-* Promotional website to showcase a song
+* A website to promote a West Coast
+* Promotional website to showcase a West Coast
 * Practice [Editorial Design concepts](https://taiarts.com/en/blog/what-is-editorial-design/) using [Art Direction methods](https://alistapart.com/article/art-direction-and-design/)
 
 ## Why Does This Exist?
@@ -13,4 +13,4 @@
 * What's old is new agai. This is the [modern mixtape](https://en.wikipedia.org/wiki/Mixtape) or a compilation of curated songs. 
 
 ## Citations
-* [West Coast](URL to Song)
+* [West Coast](https://youtu.be/QBPE2fZsVYU?si=qnnOVPyD-QJ9PH8C)

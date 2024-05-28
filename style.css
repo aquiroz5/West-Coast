@@ -1,31 +1,48 @@
 /* CSS Variables */
 :root {
     /* main UI color */
-    --plyr-color-main: darkgray;
+    --plyr-color-main: rgb(255, 160, 76);
     /* audio controls background */
-    --plyr-audio-controls-background: rgb(255, 0, 0);
+    --plyr-audio-controls-background: rgb(89, 95, 255);
     /* audio controls color */
-    --plyr-audio-control-color: white;
+    --plyr-audio-control-color: rgb(255, 160, 76);
     /* font family for player */
-    --plyr-font-family: sans-serif;
+    --plyr-font-family: serif;
     /* font size of player  */
-    --plyr-font-size-time: 16px;
+    --plyr-font-size-time: 19px;
 
     /* Other optional customiziations */
     --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  rgb(255, 0, 0);
-    --plyr-audio-range-track-background: white;
-    --plyr-tooltip-background: white;
+    --plyr-audio-progress-buffered-background:  rgb(0, 0, 0);
+    --plyr-audio-range-track-background: rgb(0255, 160, 076);
+    --plyr-tooltip-background: rgb(0, 0, 0);
     --plyr-tooltip-color: black; 
-    --plyr-control-icon-size: 16px;
+    --plyr-control-icon-size: 20px;
 }
 
 body {
-    background: gray;
+    background: rgb(89, 95, 255);
 }
 
 /* Layout */
 main {
+
+    h1{
+        padding-left: 340px;
+        color: white;
+        font-family: "Oleo Script Swash Caps", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    h2{
+        padding-left: 340px;
+        color: white;
+        font-family: "Oleo Script Swash Caps", system-ui;
+        font-weight: 400;
+        font-style: normal;
+          
+    }
+
     /* Fixed width center align */
     max-width: 60em;
     margin-inline: auto;
@@ -42,23 +59,34 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#209FDA", en
 
 }
 
+
 main img {
     /* Fit image to container */
     max-width: 100%;.
     display: block;
+    padding-left: 300px;
+    padding-top: 50px;
 }
 
 /* Primary Content */
 article {
     /* flow content horizontally */
     display: flex;
-    gap: 1em;
+    gap: 2em;
     justify-content: center;
+    padding: 10px;
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 300;
+    font-style: normal;
+
+      
+    color: rgb(255, 255, 255);
 }
 
 article section {
     /* keep flex'd child same width */
-    flex: 1;
+    flex: 2;
+    
 }
 
 /* Footer */
